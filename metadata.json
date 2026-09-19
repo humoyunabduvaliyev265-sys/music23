@@ -1,0 +1,6 @@
+{
+  "name": "Ovoz Studio - Musiqa Yaratish va Tinglash",
+  "description": "Musiqa yaratish, tinglash, pleylistlar tuzish, saqlash va yuklab olish uchun qulay offlayn ilova (telefon va kompyuterga mos).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

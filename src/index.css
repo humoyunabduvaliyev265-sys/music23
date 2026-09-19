@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes spinSlow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spinSlow 8s linear infinite;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0d14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2133;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #313552;
+}
